@@ -24,6 +24,6 @@ bin/
 
 ### VS Code ###
 .vscode/
-
+/src/BankingManagementSystem/*.class/
 ### Mac OS ###
 .DS_Store

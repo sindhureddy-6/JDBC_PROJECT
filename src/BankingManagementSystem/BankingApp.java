@@ -7,10 +7,11 @@ import java.util.Scanner;
 
 import static java.lang.Class.forName;
 
+@SuppressWarnings("unused")
 public class BankingApp {
     private static final String url = "jdbc:mysql://localhost:3306/banking_system";
     private static final String username = "root";
-    private static final String password = "Admin@123";
+    private static final String password = "sindhu12004";
 
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
         try{
@@ -103,8 +104,9 @@ public class BankingApp {
                         break;
                 }
             }
-        }catch (SQLException e){
-            e.printStackTrace();
+        } catch (SQLException e) {
+            System.out.println(e.getMessage());
+            // e.printStackTrace();
         }
     }
 }

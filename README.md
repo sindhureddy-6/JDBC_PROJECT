@@ -20,8 +20,6 @@ Follow these steps to set up and run the project on your local machine:
 
 # 📂 Project Structure
 - 'src/': Contains the Java source code files.
-- 'database/': Includes SQL scripts for database setup.
-- 'screenshots/': Screenshots of the application in action.
 
 # 📦 Features
 - User Registration & Login
@@ -34,12 +32,6 @@ Follow these steps to set up and run the project on your local machine:
 # 🌐 Technologies Used
 - Java
 - JDBC (Java Database Connectivity)
-- MySQL (or your preferred database system)
-
-# 📸 Screenshots
-- Screenshot 1
-
-# 🤝 Contributing
-- Contributions are welcome! Feel free to submit issues and pull requests.
+- MySQL 
 
 # Happy coding! 🎉
